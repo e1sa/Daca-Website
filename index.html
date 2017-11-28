@@ -38,12 +38,21 @@
 
     <div class="row">
     
-      <div class="col-md-6 col-12 pl-5 pt-3"> <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). </p> 
+      <div class="col-md-6 col-12 pl-5 pt-3"> <p> Daca is a federal government program that was started back in 2012 under the presidency of Barack Obama which allowed for people who brought to the united state illegally by their parents to be able to study, work, and run a family in the united states. For those who took the opportunity to apply they were vetted from any criminal history and if they passed vetting they would be able to do a basic thing like get a license, apply for college, or work permits.
+
+ </p> 
     </div>
       <div class="col-md-6 col-12 text-center"> 
-          <img src="http://media.techtarget.com/WhatIs/images/pie_graph.gif" class="img-fluid">
+          
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div id="canvasContainer"></div>
+      </div>
+    </div>
+  </div>
 
-          <div class="graph"  id="myGraphPie"></div>
+          <div class="graph"  id="canvasContainer"></div>
 
      </div>
      
@@ -66,7 +75,7 @@
 
         </div>
         <div class = "col-4"> 
-          <button type="button" class="btn btn-success btn-lg btn-block"> work </button> 
+          <button type="button" class="btn btn-success btn-lg btn-block" onclick="work()"> work </button> 
           </div>
 
 
@@ -80,9 +89,9 @@
 
       <div class="col-md-6 col-12 px-4"> 
         <h4 id="category"> FAMILY </h4> 
-        <p> This will be the discription for the audio story that will be provided by youth radio. This will be the discription for the audio story that will be provided by youth radio. </p>
+        <p id="des"> This will be the discription for the audio story that will be provided by youth radio. This will be the discription for the audio story that will be provided by youth radio. </p>
         </div>
-      <div class="col-md-6 col-12 px-4"> <h5> Julia's Story </h5><audio controls>
+      <div class="col-md-6 col-12 px-4"> <h5 id="time" > Julia's Story </h5><audio controls>
   <source src="horse.ogg" type="audio/ogg">
   <source src="horse.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
@@ -100,21 +109,12 @@ Your browser does not support the audio element.
           <div class="graph text-center" id="myGraphBar"></div>
         </div>
 
-     
-        <div class="col-6 text-center"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). </div>
+        <div class="col-md-6 col-12 pl-5 pt-3"> <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-</div>
-
-
-
-
-
-
-
-
-
-
+ </p> 
     </div>
+</div>
+ 
 
 
 
@@ -124,6 +124,16 @@ Your browser does not support the audio element.
 
 
 
+
+
+
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.dom.min.js"></script>
+
+    <script src="bubble.js" ></script>
     <script src="bar.js"></script>
     <script src="scriptLine.js"></script>
     <script src="script.js"></script>

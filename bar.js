@@ -5,15 +5,15 @@ var element = d3.select('#myGraphBar');
 var graphnode = element.node();
 
 
-var graphTitle = "My First BAR graph";
+var graphTitle = "How Many Dreamer will be losing DACA";
 
 var data1 = {
   name: 'Red Title',
   x: ['DACA2017', 'DACA2018', 'DACA2019'],
-  y: [100, 30, 20],
+  y: [ 201678, 275344 , 321920 ],
   type: 'bar',
   marker: {
-    color: ['#C8A2C8', 'red', 'blue'],
+    color: ['green', 'red', 'blue'],
     line: {
         width: 0.5
     } 
