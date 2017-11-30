@@ -15,10 +15,12 @@
   </head>
   <body>
 
+<body>
+
 <div class="container-fluid">
       <div class="row bg-success text-white">
         <div class="col-12">
-          <h1 class="text-center"> DACA Project</h1>
+          <h1 class="text-center display-1"> DACA Project</h1>
           <br>
 
           </div>
@@ -29,9 +31,9 @@
           </div>
         </div>
 
-        <div class="row bg-primary text-white">
+        <div class="row pink text-white">
             <div class="col-12">
-            <h3 class="text-center py-2"> Current State of DACA  </h3>
+            <h3 class="text-center py-2 display-3"> Current State of DACA  </h3>
           </div>
         </div>
 
@@ -58,16 +60,18 @@
      
  </div>
 
-   <div class="row bg-primary text-white">
+   <div class="row pink text-white">
             <div class="col-12">
-            <h3 class="text-center py-2"> Dreamer's Lives  </h3>
+            <h3 class="text-center py-2 display-3"> Dreamer's Lives  </h3>
           </div>
     </div>
 
 
     <div class="row my-3"> 
-      <div class = "col-4"> 
-      <button type="button" class="btn btn-success btn-lg btn-block" onclick="family()"> family </button>
+      <p class="px-4 d">Read and Listen to the story of the Dreams who are going to be greatly affected if DACA is taken away. </p>
+
+      <div class="col-4">
+            <button type="button" class="btn btn-success btn-lg btn-block" onclick="family()"> family </button>
         </div>
        <div class = "col-4"> 
 
@@ -76,6 +80,8 @@
         </div>
         <div class = "col-4"> 
           <button type="button" class="btn btn-success btn-lg btn-block" onclick="work()"> work </button> 
+       
+
           </div>
 
 
@@ -85,22 +91,27 @@
         
 
 
-    <div class="row">
+    <div class="row stories " id="stories">
 
-      <div class="col-md-6 col-12 px-4 "> 
+    	 <div class="col-6">
+       		 <img src="" id="pic" class="img-fluid">
+     	</div>
+
+
+      <div class="col-6  "> 
         <h4 id="category"> FAMILY </h4> 
          <h5> By <span id="author" >  </span>  </h5>
           <audio controls id="sound">
-  <source src="https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2014/01/YR_Luz_Social-Number_KCBS.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+ 			 <source src="https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2014/01/YR_Luz_Social-Number_KCBS.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
       
         </div>
-      <div class="col-md-6 col-12 px-4 mb-3">
-        <img src="" id="pic" class="img-fluid">
-     </div>
-     
-        </div>
+
+</div>
+    	
+
+ 
 
     <div class="row text-center bg-primary text-white">
         <div class="col-12"> <h2> DACA Dissapearing</h2></div>
@@ -117,6 +128,7 @@ Your browser does not support the audio element.
  </p> 
     </div>
 </div>
+
  
 
 
