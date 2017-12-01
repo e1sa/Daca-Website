@@ -60,7 +60,7 @@ var top10Data = [{
     "Percent": "0.6"
   }, {
     "Country": "Philippines\n4k",
-    "Color": "#550000",
+    "Color": "#CADBC0",
     "Number": "3880",
     "Percent": "0.6"
   }

@@ -13,7 +13,7 @@ var data1 = {
   y: [ 201678, 275344 , 321920 ],
   type: 'bar',
   marker: {
-    color: ['green', 'red', 'blue'],
+    color: ['#7A9E9F', '#B94600', '#EFCB68'],
     line: {
         width: 0.5
     } 
