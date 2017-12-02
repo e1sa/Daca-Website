@@ -18,21 +18,28 @@
 <body>
 
   <div class="container-fluid">
-    <div class="row bg-success text-white">
+   <div class="row star text-white">
       <div class="col-12">
-        <h1 class="text-center"> DACA Project</h1>
+<div class="d-flex justify-content-between align-items-center">
+    <div class="p-2"></div>
+    <div class="p-2">
+     <h1 class="text-center display-3"> Defend Dreamers</h1> 
+</div>
+    <div class="p-2">        <img src="YR_logo.png" class="img-fluid">
+</div>
+  </div>
         <br>
       </div>
     </div>
-    <div class="row ">
-      <div class="col-12">
+    <div class="row">
+      <div class="col-12 text-center">
         <img src="DACAprotest.jpg" class="img-fluid">
       </div>
     </div>
 
-    <div class="row pink bg-primary text-white">
+    <div class="row pink text-white">
       <div class="col-12">
-        <h3 class="text-center py-2"> Current State of DACA  </h3>
+        <h3 class="text-center py-2 display-3"> Current State of DACA  </h3>
       </div>
     </div>
 
@@ -50,7 +57,7 @@
 
         <div class="container">
           <div class="row">
-            <div class="col text-center">
+            <ddiv class="col text-center">
               <div id="canvasContainer"></div>
             </div>
           </div>
@@ -58,45 +65,48 @@
         <div class="graph" id="canvasContainer"></div>
       </div>
     </div>
-    <div class="row bg-primary text-white">
+    <div class="row pink text-white">
       <div class="col-12">
-        <h3 class="text-center py-2"> Dreamer's Lives </h3>
+       <h3 class="text-center py-2 display-3"> Dreamer's Lives  </h3>
       </div>
     </div>
-    <div class=r ow>
+    <div class="row mx-3">
+    <div class=" col-12 pl-5 pt-3">
       <p>Lots of Dreamers use the program to support themselves through school and enable them to work so they can take care of themselves and their children, younger siblings, and parents. This program being taken away will result in them losing thier opportunities
-        in this country. </p>
+        in this country. Listen to these young peoples stories and how DACA affects their lifes.</p>
+        </div>
     </div>
-    <div class="row my-3">
-      <div class="col-4">
-        <button type="button" class="btn btn-success btn-lg btn-block" onclick="family()"> family </button>
+    <div class="row m-3 ">
+      <div class="col-4 mb-3">
+        <button type="button" class="btn btn-success btn-lg btn-block" onclick="family()"> Mireles </button>
       </div>
-      <div class="col-4">
-        <button type="button" class="btn btn-success btn-lg btn-block" onclick="school()"> school </button>
+      <div class="col-4  mb-3">
+        <button type="button" class="btn btn-success btn-lg btn-block" onclick="school()">  Prieto </button>
       </div>
-      <div class="col-4">
-        <button type="button" class="btn btn-success btn-lg btn-block" onclick="work()"> work </button>
+      <div class="col-4  mb-3">
+        <button type="button" class="btn btn-success btn-lg btn-block" onclick="work()"> Hernandez </button>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-6 col-12 px-4 ">
-        <h4 id="category"> FAMILY </h4>
-        <h5> By <span id="author" >  </span>  </h5>
-        <audio controls id="sound">
-  <source src="https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2014/01/YR_Luz_Social-Number_KCBS.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio>
+ 
 
+    <div class="row mx-3 mb-5" >
+      <div class="col-6 ">
+        <h4 id="category">  </h4>
+        <h5> <span id="author" >  </span>  </h5>
+        <div id="sounds">  </div>
+      
       </div>
-      <div class="col-md-6 col-12 px-4 mb-3">
+
+      <div class="col-6">
         <img src="" id="pic" class="img-fluid">
       </div>
 
     </div>
 
-    <div class="row text-center bg-primary text-white">
+    <div class="row text-center pink text-white">
       <div class="col-12">
-        <h2> DACA Dissapearing</h2></div>
+   <h3 class="text-center py-2 display-3"> 
+               DACA Dissapearing </h3></div>
     </div>
     <div class="row">
       <div class="col-12 col-md-6">
@@ -113,13 +123,14 @@
 
           <a href="http://heretostay.unidosus.org/?gclid=Cj0KCQiAl8rQBRDrARIsAEW_To-aJ5lftfHLZMnRahZdREnf4iAJsiXHpwCgKkiv3_u1dyUJ4fbHp_caAvV5EALw_wcB"> How can you help Dreamers?</a>
         </p>
+        </div>
+        </div>
+       <div class="row pink text-white">
+      <div class="col-12">
+        <h6 class="text-center py-2"> Created by: Elisabeth Guta  and Jahili Walton </h6>
+
       </div>
-    </div>
-
-
-
-
-
+      </div>
 
 
 
@@ -130,7 +141,6 @@
 
     <script src="bubble.js"></script>
     <script src="bar.js"></script>
-    <script src="scriptLine.js"></script>
     <script src="script.js"></script>
 </body>
 

@@ -2,6 +2,12 @@
   border:1px solid black;
 }*/
 
+h1 {
+	font-size: 8vw !important;
+}
+h3 {
+	font-size: 8vw !important;
+}
 .brown {
 	background-color: #;
 
@@ -29,7 +35,7 @@
 .pink{
  background-color: #28464B;
 }
-
-#stories{
-	display: none;
+.star{
+	background-color: #90A955;
 }
+

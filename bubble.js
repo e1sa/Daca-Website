@@ -104,7 +104,7 @@ function draw() {
       }
       fill(top10Data[counter].Color);
       ellipse(0, 0, Math.log10(top10Data[counter].Number) * graphScale, Math.log10(top10Data[counter].Number) * graphScale);
-      fill('#000000');
+      fill('#FFF');
       text(top10Data[counter].Country, 0, 0);
     counter = counter + 1;
     pop()
